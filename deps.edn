@@ -1,2 +1,3 @@
 {:paths   ["src/main/clojure"]
- :deps    {violet/gx.cljc {:local/root "../gx.cljc"}}}
+ :deps    {io.github.violet-city/gx.cljc {:git/sha "9962ed156b8f89db378fda864998c8a2bc4c66dd"}}
+ :aliases {:dev/local {io.github.violet-city/gx.cljc {:local/root "../gx.cljc"}}}}
