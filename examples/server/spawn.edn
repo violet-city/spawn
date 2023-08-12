@@ -1,0 +1,7 @@
+{:graph  {:server/host "localhost"
+          :server/port 8080
+          :server/main {:gx/component example.system/server
+                        :gx/props     {:host     (gx/ref :server/host)
+                                       :port     (gx/ref :server/port)
+                                       :database (gx/ref :example.database/component)}}}
+ :layers [example.database/graph]}

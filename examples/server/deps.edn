@@ -1,0 +1,3 @@
+{:paths   ["src"]
+ :deps    {violet/spawn {:local/root "../../"}}
+ :aliases {:spawn {:main-opts ["-m" "city.violet.spawn"]}}}
