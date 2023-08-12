@@ -1,1 +1,2 @@
-{:paths ["src/main/clojure"]}
+{:paths   ["src/main/clojure"]
+ :deps    {violet/gx.cljc {:local/root "../gx.cljc"}}}
